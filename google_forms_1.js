@@ -3,7 +3,7 @@
 
 function submitFormResponses() {
     // Replace with your actual Form ID
-    const form = FormApp.openById("19tVE3Xv3aW6WLUF9Tpu8n0fGDC4xfEVWjx8egfJ2aWo");
+    const form = FormApp.openById("<YOUR FORM ID>");
   
     // Define the responses for each question
     const genderOptions = ["Male", "Female"];
