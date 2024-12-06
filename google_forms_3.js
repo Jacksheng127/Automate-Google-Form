@@ -41,6 +41,8 @@ function submitFormResponses() {
         response.withItemResponse(itemResponse);
       }
     }
+
+    
   
     // Submit the response
     response.submit();
