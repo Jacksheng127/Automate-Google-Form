@@ -1,6 +1,7 @@
 // Description: This script is used to submit responses to a Google Form programmatically.
 // Way 1: Select the questions by index
 
+
 const form = FormApp.openById("1AhyRKiB6xbCejww45ufKWkdie47gtdLpGjyHKcLTU1M");
   
 // Define the responses for each question
@@ -345,7 +346,7 @@ if (motivationItem) {
        if (Item24) {
            response.withItemResponse(Item24.asScaleItem().createResponse(randomNumberFor0to5Scale()));
        }
-// Submit the response
+  response.submit();
 }
 
 for(let i = 0 ; i <= 20 ; i ++){
